@@ -1,0 +1,27 @@
+{
+  "name": "employee-tracker-cms",
+  "version": "1.0.0",
+  "description": "Employee Tracker CMS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Selvan92/Employee-Tracker-CMS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Selvan92/Employee-Tracker-CMS/issues"
+  },
+  "homepage": "https://github.com/Selvan92/Employee-Tracker-CMS#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "dotenv": "^16.0.3",
+    "inquirer": "^9.1.4",
+    "mysql2": "^3.0.0-rc.1"
+  }
+}
