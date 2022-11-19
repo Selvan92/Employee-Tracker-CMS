@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Employee Tracker CMS",
   "main": "server.js",
+  "type": "ESNext",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -21,7 +22,7 @@
   "dependencies": {
     "console.table": "^0.10.0",
     "dotenv": "^16.0.3",
-    "inquirer": "^9.1.4",
-    "mysql2": "^3.0.0-rc.1"
+    "inquirer": "^8.2.4",
+    "mysql2": "^2.3.3"
   }
 }
