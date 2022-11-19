@@ -214,11 +214,11 @@ addRole = () => {
       name: 'salary',
       message: "What is the salary of this role?",
       validate: addSalary => {
-        if (isNAN(addSalary)) {
-            return true;
-        } else {
-            console.log('Please enter a salary');
+        if (isNaN(addSalary)) {
             return false;
+        } else {
+            //console.log('Please enter a salary');
+            return true;
         }
       }
     }
